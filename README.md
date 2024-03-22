@@ -1,5 +1,5 @@
 # Ex02 Django ORM Web Application
-## Date: 
+## Date: 22/03/2024
 
 ## AIM
 To develop a Django application to store and retrieve data from a Book database using Object Relational Mapping(ORM).
@@ -44,11 +44,12 @@ class Book(models.Model):
 
 class BookAdmin(admin.ModelAdmin):
     list_display=('book_id','book_name','publisher_name','publisher_year','author_name')
-
+```
 ## OUTPUT
 
-![Screenshot 2024-03-19 132816](https://github.com/ameeshajeffi/ORM/assets/150773598/a5638afb-8442-43d9-9dc8-e301d4c5b768)
+![Screenshot 2024-03-19 104514](https://github.com/ameeshajeffi/ORM/assets/150773598/a3326b57-9bb0-438e-b21a-73669f299845)
 
+![Screenshot 2024-03-19 132816](https://github.com/ameeshajeffi/ORM/assets/150773598/4445e0cd-0788-44fb-a3e2-7039cead883b)
 
 ## RESULT
-Thus the program for creating a database using ORM hass been executed successfully
+Thus the program for creating a database using ORM hass been executed successfully.
